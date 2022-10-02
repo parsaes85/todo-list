@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Todo app</title>
+</head>
+<body>
+  <header></header>
+
+  <div class="app">
+    <div class="todo-list-header">
+      <h1>TODO</h1>
+      
+      <img class="switch-mode-btn" src="images/icon-sun.png" alt="">
+    </div>
+
+    <form class="todo-list-add">
+      <button class="add-todo"><img src="images/icon-check.png" alt=""></button>
+      <input class="add-input" type="text" placeholder="Create a new todo...">
+    </form>
+
+    <div class="todo-list">
+      <div class="todos">
+        <p class="empty-text">Your List Is Empty</p>
+      </div>
+
+
+      <div class="todo-list-footer">
+        <p><span class="left-items">0</span> items left</p>
+  
+        <p class="clear-completed">Clear Completed</p>
+      </div>      
+    </div>
+
+
+    <div class="categorys">
+      <button class="all-category">All</button>
+      <button class="active-category">Active</button>
+      <button class="completed-category">Completed</button>
+    </div>
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
